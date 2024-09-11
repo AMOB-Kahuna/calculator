@@ -1,0 +1,57 @@
+#container{
+    width: 40%;
+    height: 500px;
+    margin: 20px 30% 0;
+    background-color: skyblue;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#space{
+    padding: 10px;
+}
+#display{
+    width: 90%;
+    height: 100px;
+    margin-left: 5%;
+    background-color: white;
+    border-radius: 20px;
+}
+#buttonContainer{
+    display: flex;
+    margin: 10px 55px;
+}
+#operators{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    width: 60px;
+    height: 70px;
+    margin: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+}
+button:hover{
+    color: greenyellow;
+}
+#equalTo{
+    height: 160px;
+    background-color: green;
+}
+.operator{
+    background-color: white;
+    color: black;
+}
+#delete{
+    background-color: red;
+}
+#clear-screen{
+    background-color: orange;
+}
